@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+
+    <title>Luna</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="font.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div id="carga">
+        <div id="carganum">0</div>
+        <img id="cargando" src="./images/inicio/preload.gif"/>
+    </div>
+    <div id="particles-js"></div>
+    <div class="outerContainer">
+        <div id="controls" class="buttons">
+          <a id="rewind" title="Reiniciar historia desde el inicio">reiniciar</a>
+          <a id="save" title="Guardar progreso">guardar</a>
+          <a id="reload" title="Cargar juego guardado">cargar</a>
+          <!--<a id="theme-switch" title="Switch theme">theme</a>-->
+        </div>
+
+        <div id="story" class="container">
+        </div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="preload.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="stars.js"></script>
+    <script src="ink.js"></script>
+    <script src="luna.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
